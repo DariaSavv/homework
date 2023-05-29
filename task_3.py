@@ -7,16 +7,13 @@
 # Если исключения не произошло, то функция возвращает сумму всех координат
 
 
-# Здесь пишем код
-
-# Ниже НИЧЕГО НЕ НАДО ИЗМЕНЯТЬ
-
 def segment(first_coordinates, second_coordinates):
     try:
         return first_coordinates[0] + first_coordinates[1] + second_coordinates[0] + second_coordinates[1]
     except Exception as e:
         return ''.join(reversed(e.args[0]))
 
+# Ниже НИЧЕГО НЕ НАДО ИЗМЕНЯТЬ
 
 data = [
     ((2, 3), (4, 5)),
